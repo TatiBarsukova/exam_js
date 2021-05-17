@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+.body__page1 {
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, p {
+    margin: 0;
+}
+
+.page1 {
+    color: #ffffff;
+    width: 100%;
+    background-image:
+    linear-gradient(45deg, rgba(85, 183, 255, 0.95), rgba(126, 90, 255, 0.95)); 
+}
+
+/* conteiner */
+.conteiner {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.content__suptitle {
+    padding-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.content__titele {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 44px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.content__text_page {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.content__button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    display:inline-block;
+    vertical-align: top;
+    border: 2px solid #ffffff;
+    width: 190px;
+    height: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content__button:hover {
+    border: 2px solid #fff;
+    background-color: #ffffff;
+    color: #2C4058;
+}
+
+.content__footer {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.content__footer_icon {
+    text-decoration: none;
+    color: #ffffff;
+}
